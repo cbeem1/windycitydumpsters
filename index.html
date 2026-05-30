@@ -28,7 +28,15 @@
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- GA4 placeholder - paste your GA4 script tag here -->
-  <!-- GA4 TAG HERE -->
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DM02FMTZ27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DM02FMTZ27');
+</script>
 
   <!-- LocalBusiness Schema -->
   <script type="application/ld+json">
@@ -40,7 +48,6 @@
     "url": "https://windycitydumpsters.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 N Michigan Ave, Ste 100",
       "addressLocality": "Chicago",
       "addressRegion": "IL",
       "postalCode": "60601",
