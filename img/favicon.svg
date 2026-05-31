@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <rect width="64" height="64" rx="12" fill="#003087"/>
+  <!-- Dumpster lid -->
+  <rect x="10" y="16" width="44" height="10" rx="2" fill="#D01F2A"/>
+  <!-- Lid handle -->
+  <rect x="24" y="10" width="16" height="8" rx="2" fill="#D01F2A"/>
+  <!-- Dumpster body -->
+  <rect x="12" y="25" width="40" height="26" rx="2" fill="white"/>
+  <!-- Stripes on body -->
+  <rect x="12" y="25" width="40" height="26" rx="2" fill="#003087" opacity="0.08"/>
+  <rect x="22" y="25" width="4" height="26" fill="#D01F2A" opacity="0.5"/>
+  <rect x="38" y="25" width="4" height="26" fill="#D01F2A" opacity="0.5"/>
+  <!-- Legs -->
+  <rect x="16" y="49" width="7" height="7" rx="1" fill="white"/>
+  <rect x="41" y="49" width="7" height="7" rx="1" fill="white"/>
+</svg>
